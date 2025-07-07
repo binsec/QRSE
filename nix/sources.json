@@ -1,0 +1,57 @@
+{
+    "binsec": {
+        "branch": "0.10.1",
+        "description": "BINSEC binary-level open-source platform",
+        "homepage": null,
+        "owner": "binsec",
+        "repo": "binsec",
+        "rev": "0035d6b0a4cf992e1a57f02134826ac793cfeb15",
+        "sha256": "0mb7n20b1p2np9dchwwcv046ivsan0n2zssp4b8gi7bg5m2nq11m",
+        "type": "tarball",
+        "url": "https://github.com/binsec/binsec/archive/0035d6b0a4cf992e1a57f02134826ac793cfeb15.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-24.11",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f0946fa5f1fb876a9dc2e1850d9d3a4e3f914092",
+        "sha256": "089g2irgv5y5mpypgkl2dcy3bwh40qrj25b8v881a32xgpwdq5xc",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/f0946fa5f1fb876a9dc2e1850d9d3a4e3f914092.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ocaml-bitwuzla": {
+        "branch": "master",
+        "repo": "https://github.com/bitwuzla/ocaml-bitwuzla.git",
+        "rev": "6642f7a47551185e924d99a3979b793950ccb18f",
+        "submodules": true,
+        "type": "git"
+    },
+    "popcon": {
+        "branch": "main",
+        "description": "Popcon is a front-end for various counting and functional E-MAJSAT solvers.",
+        "homepage": null,
+        "owner": "binsec",
+        "repo": "popcon",
+        "rev": "21a6847b180f2253388a4bc9097d56a45f7484ee",
+        "sha256": "1acl66vfiwxqq7q52a1dhakrm94n29x4qcfwfkdlqykng126y2qs",
+        "type": "tarball",
+        "url": "https://github.com/binsec/popcon/archive/21a6847b180f2253388a4bc9097d56a45f7484ee.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "unisim_archisec": {
+        "branch": "0.0.10",
+        "description": "OCaml binding for the external UNISIM DBA decoder",
+        "homepage": "",
+        "owner": "binsec",
+        "repo": "unisim_archisec",
+        "rev": "64b84680f0aaecf0872b1e0d914d35d067b51312",
+        "sha256": "08aihgjjki18da37fv2afp4fdsap453ah4cz2iix8lnz029qy118",
+        "type": "tarball",
+        "url": "https://github.com/binsec/unisim_archisec/archive/64b84680f0aaecf0872b1e0d914d35d067b51312.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

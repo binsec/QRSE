@@ -1,0 +1,13 @@
+(library
+ (public_name qrse.libqrse)
+ (name qrse)
+ (modules :standard)
+ (flags
+  (:standard -w "-58" -warn-error -A))
+ (libraries binsec.sse binsec.sse.term zarith))
+
+(plugin
+ (name qrse)
+ (libraries qrse.libqrse)
+ (site
+  (binsec plugins)))
